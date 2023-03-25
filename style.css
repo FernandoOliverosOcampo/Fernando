@@ -1,0 +1,329 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+	 background: white;
+	  margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+header{
+	
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 330px;
+	/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(320, 20%, 97%, 0.781), hsla(317, 45%, 52%, 0.664)), url(img/icono.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(320, 20%, 97%, 0.781), hsla(320, 20%, 97%, 0.781)), url(img/icono.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-attachment: fixed;
+	/*background-color: #ff0000;*/
+	text-align: center;
+
+}
+h1{
+	padding-top: 120px;
+    font-size: 40px;
+    color:black;
+}
+/*Quien soy*/
+
+ main .contenido{
+ 	padding: 0 0 60px 0;
+ }
+ .contenido_sobre_mi{
+	font-weight: 300;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    
+	
+}
+h2{
+	padding-top: 20px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.contenido_sobre_mi p{
+    
+    font-weight: 300;
+    text-align: justify;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.imagen_fernando{
+	width: 38%;
+    width: 290px;
+    height: 350px;
+    border-radius: 20px;
+    
+    
+}
+
+/*Estudios*/
+
+
+.estudios{
+	padding: 50px 0 60px 0;
+	background: gray;
+	font-weight: 200;
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+
+}
+
+.estudios-fernando p{
+	font-weight: 300;
+	text-align: justify;
+	width: 550px;
+	height: 450px;
+	padding-bottom: 0;
+
+	
+}
+.estudios img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/*FOOTER*/
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+/*Responsive*/
+@media(max-width: 767px){
+	.contenido_sobre_mi{
+		flex-direction: column;
+		justify-content: space-evenly;
+        background: rgb(255,255,255,0.2);
+        align-items: center;
+	}
+	.estudios{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 630px;
+
+	}
+	.estudios .estudios-fernando p{
+		width: 450px;
+		height: 450px;
+
+
+	}
+	.estudios .estudios-fernando{
+		height: 200px;
+		width: 450px;
+
+
+	}
+	.estudios img{
+		margin-top: 30px;
+	}
+	footer{
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+@media(max-width: 610px){
+	.contenido_sobre_mi{
+		flex-direction: column;
+		justify-content: space-evenly;
+        background: rgb(255,255,255,0.2);
+        align-items: center;
+	}
+	.estudios{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 630px;
+
+
+	}
+	.estudios .estudios-fernando p{
+		width: 450px;
+		height: 450px;
+
+
+	}
+	.estudios .estudios-fernando{
+		height: 200px;
+		width: 450px;
+
+
+	}
+	footer{
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+@media(max-width: 510px){
+	.contenido_sobre_mi{
+		flex-direction: column;
+		justify-content: space-evenly;
+        background: rgb(255,255,255,0.2);
+        align-items: center;
+	}
+	.estudios{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 630px;
+
+
+	}
+	.estudios .estudios-fernando p{
+		width: 450px;
+		height: 450px;
+
+
+	}
+	.estudios .estudios-fernando{
+		height: 200px;
+		width: 450px;
+
+
+	}
+	footer{
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+@media(max-width: 400px){
+	.contenido_sobre_mi{
+		flex-direction: column;
+		justify-content: space-evenly;
+        background: rgb(255,255,255,0.2);
+        align-items: center;
+	}
+	.estudios{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 630px;
+
+
+	}
+	.estudios .estudios-fernando p{
+		width: 350px;
+		height: 350px;
+
+
+	}
+	.estudios .estudios-fernando{
+		height: 200px;
+		width: 350px;
+
+
+	}
+	footer{
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+	}
+}

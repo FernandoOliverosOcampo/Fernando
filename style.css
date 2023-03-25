@@ -327,3 +327,39 @@ h2{
 		flex-direction: column;
 	}
 }
+@media(max-width: 350px){
+	.contenido_sobre_mi{
+		flex-direction: column;
+		justify-content: space-evenly;
+        background: rgb(255,255,255,0.2);
+        align-items: center;
+		height: 350px;
+	}
+	.estudios{
+
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		height: 630px;
+
+
+	}
+	.estudios .estudios-fernando p{
+		width: 350px;
+		height: 350px;
+
+
+	}
+	.estudios .estudios-fernando{
+		height: 200px;
+		width: 350px;
+
+
+	}
+	footer{
+		justify-content: space-evenly;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+

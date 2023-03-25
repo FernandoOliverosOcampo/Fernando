@@ -327,7 +327,7 @@ h2{
 		flex-direction: column;
 	}
 }
-@media(max-width: 350px){
+@media(max-width: 380px){
 	.contenido_sobre_mi{
 		flex-direction: column;
 		justify-content: space-evenly;
@@ -336,7 +336,7 @@ h2{
 		height: 350px;
 	}
 	.contenido_sobre_mi p{
-		width: 200px;
+		width: 300px;
 	}
 	.estudios{
 

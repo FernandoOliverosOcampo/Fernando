@@ -335,6 +335,9 @@ h2{
         align-items: center;
 		height: 350px;
 	}
+	.contenido_sobre_mi p{
+		width: 200px;
+	}
 	.estudios{
 
 		flex-direction: column;
